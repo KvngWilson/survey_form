@@ -1,1 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Title Styling */
+#title {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #4CAF50;
+}
+
+/* Description Styling */
+#description {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Form Styling */
+#survey-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Label Styling */
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+  color: #444;
+}
+
+/* Input Fields, Select, and Textarea Styling */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Focus Styling */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Radio and Checkbox Styling */
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Button Styling */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add some spacing between form elements */
+input,
+select,
+textarea,
+button {
+  margin-top: 10px;
+}
+
+/* Error Styling for invalid inputs */
+input:invalid,
+textarea:invalid {
+  border-color: #f44336;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+  border-color: #f44336;
+  outline: none;
+}
+
+input:valid,
+textarea:valid {
+  border-color: #4CAF50;
+}
+
+input:focus:invalid,
+textarea:focus:invalid {
+  border-color: #f44336;
+}
